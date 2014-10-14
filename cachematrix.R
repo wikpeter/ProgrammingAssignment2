@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions can be tested with an inversible matrix, like: matrix(c(4,3,3,2),2,2)
 
-## Write a short comment describing this function
+## makeCachematrix function stores the matrix and it's inverse (if calculated). Getters and setters for matrix and inverse are exposed
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse=NULL
@@ -22,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Cachesolve prints out the inverse, either from cache or by calculating (and setting cache)
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
